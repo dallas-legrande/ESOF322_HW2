@@ -13,6 +13,10 @@ public class MyMath extends MathTool{
     
     public MyMath(){
         sortBehavior = new bubbleSort();
+        
+        // adding print methods per assignment specs
+        System.out.println("sortBehavior = new bubbleSort()");
+        
     }
     
 }
