@@ -13,6 +13,9 @@ public class MTool extends MathTool{
     
     public void MTool(){
         sortBehavior = new mergeSort();
+        
+        // adding print methods per assignment specs
+        System.out.println("sortBehavior = new mergeSort()");
     }
 }
     
