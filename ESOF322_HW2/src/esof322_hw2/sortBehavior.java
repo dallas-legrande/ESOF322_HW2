@@ -8,7 +8,7 @@ package esof322_hw2;
 public interface sortBehavior {
     public void mathSort();
     
-    public void setSortStrategy();
+    
         
     
 }
