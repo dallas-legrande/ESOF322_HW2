@@ -9,7 +9,7 @@ package esof322_hw2;
  * merge sort isa sort behavior
  */
 public class mergeSort implements sortBehavior{
-    public void mathSort(){
+    public void mathSort(int[] a){
         System.out.println("Sorting numbers using merge sort");
     }
 }

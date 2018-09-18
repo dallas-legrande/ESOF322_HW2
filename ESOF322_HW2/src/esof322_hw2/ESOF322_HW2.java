@@ -8,17 +8,16 @@ package esof322_hw2;
  * Driver class to run the strategy pattern
  */
 public class ESOF322_HW2 {
-
-    /**
-     * @param args the command line arguments
-     */
+    
+    static int[] array = {1,37,7,9,44,26,5,82};
+    
     public static void main(String[] args) {
         MathTool m = new Mathematica();
-        m.mathSort();
+        m.mathSort(array);
         m.setSortStrategy(new mergeSort());
-        m.mathSort();
+        m.mathSort(array);
         m.setSortStrategy(new bubbleSort());
-        m.mathSort();
+        m.mathSort(array);
     }
     
 }

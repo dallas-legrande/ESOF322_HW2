@@ -14,8 +14,8 @@ public abstract class MathTool {
         
     }
     
-    public void mathSort(){
-        sortBehavior.mathSort();
+    public void mathSort(int[] a){
+        sortBehavior.mathSort(a);
     }
     
    public void setSortStrategy(sortBehavior sb){

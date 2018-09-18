@@ -8,5 +8,5 @@ package esof322_hw2;
  * delegates the mathSort() method to the classes that implement this behavior
  */
 public interface sortBehavior {
-    public void mathSort();
+    public void mathSort(int[] array);
 }
