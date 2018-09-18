@@ -16,7 +16,7 @@ public abstract class MathTool {
         sortBehavior.mathSort();
     }
     
-   public void setSortMethod(sortBehavior sb){
+   public void setSortStrategy(sortBehavior sb){
        sortBehavior = sb;
    }
 }
