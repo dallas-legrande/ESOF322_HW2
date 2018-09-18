@@ -13,5 +13,8 @@ public class Mathematica extends MathTool{
     
     public Mathematica(){
         sortBehavior = new insertionSort();
+        
+        // adding print methods per assignment specs
+        System.out.println("sortBehavior = new insertionSort()");
     }
 }
