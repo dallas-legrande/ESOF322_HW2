@@ -32,7 +32,7 @@ public class bubbleSort implements sortBehavior{
             
             //Display the sorted array
             for(int x = 0 ; x < arr.length ; x ++){
-            System.out.print(arr[x] + ", ");
+            System.out.print(arr[x] + ",");
             
             }
     }
